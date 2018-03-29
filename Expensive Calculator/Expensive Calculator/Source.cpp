@@ -6,6 +6,22 @@
 
 int main()
 {
+	int userInput1;
+	int userInput2;
+	int answer;
+
+	std::cout << "Please enter a number >>> " << std::endl;
+	std::cin >> userInput1;
+
+	std::cout << "Please enter another number less than the first one you inputted >>> " << std::endl;
+	std::cin >> userInput2;
+
+	std::cout << userInput1 << " + " << userInput2 << " = " << userInput1 + userInput2 << std::endl;
+	std::cout << userInput1 << " - " << userInput2 << " = " << userInput1 - userInput2 << std::endl;
+	std::cout << userInput1 << " X " << userInput2 << " = " << userInput1 * userInput2 << std::endl;
+	std::cout << userInput1 << " / " << userInput2 << " = " << userInput1 / userInput2 << std::endl;
+	std::cout << userInput1 << " % " << userInput2 << " = " << userInput1 % userInput2 << std::endl;
+
 	std::cout << "seven + three = " << 7 + 3 << std::endl;
 	std::cout << "7 + 3 = " << 7 + 3 << std::endl;
 	std::cout << "7 - 3 = " << 7 - 3 << std::endl;
